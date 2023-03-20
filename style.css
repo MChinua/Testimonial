@@ -9,11 +9,16 @@
 
 body{
     font-size: 13px;
+   
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: hsl(210, 46%, 95%);
+    margin-top: 1rem;
 }
 
 main{
@@ -141,10 +146,12 @@ grid-column: 2/4;
 }
 
 
-/* .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
+    position: relative;
+    bottom: -20px;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
-  } */
+  }
